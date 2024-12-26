@@ -1,0 +1,30 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  textarea#editor {
+    width: 45%;
+    height: 300px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  div#preview {
+    width: 45%;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    overflow-y: auto;
+    text-align: left;
+  }
+  
